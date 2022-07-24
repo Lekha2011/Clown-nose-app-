@@ -1,0 +1,16 @@
+h3{
+    font-size: 30px !important;
+}
+
+.btn-info:hover{
+    background-color:chocolate;
+}
+@keyframes example {
+    from {box-shadow: 5px 5px 40px purple;}
+    to {box-shadow: 5px 5px 40px black;}
+}
+ canvas{
+    animation-name:example;
+    animation-duration:4s ;
+    animation-iteration-count: infinite;
+ }
